@@ -1,0 +1,25 @@
+<!-- fragment_dynamic.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Add your dynamic fragment content here -->
+    <TextView
+        android:id="@+id/fragment_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Dynamic Meal"
+        android:textSize="25sp"
+        android:textColor="@color/my_secondary"
+        android:textStyle="bold"
+        android:background="@color/blue"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:paddingTop="10dp"
+        android:paddingLeft="130dp"
+        />
+
+
+</RelativeLayout>
+
+
